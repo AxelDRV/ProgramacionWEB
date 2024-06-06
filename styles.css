@@ -1,0 +1,111 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #123f5d; /* Color de fondo para todo el cuerpo */
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+/* Estilo para el encabezado */
+header {
+    font-family: "Montserrat", sans-serif;  
+    background-color: #121930;
+    color: #fff;
+    text-align: center;
+    padding: .10rem 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   /* z-index: 1000;*/
+    height: 90px;
+}
+
+/* Estilo para la lista */
+.navegacion ul {
+    list-style: none; /* Quita los marcadores de lista */
+    display: flex; /* Utiliza Flexbox */
+    justify-content: right; /* Centra horizontalmente */
+}
+
+/* Estilo para los elementos de la lista */
+.navegacion li {
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+    margin-top: 30px; /* Ajusta este valor según tus preferencias */
+}
+
+
+/* Estilo para los enlaces */
+.navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Estilo para el contenedor del video */
+.video {
+    color: #fff;
+    display: grid;
+    place-items: center; /* Centra horizontal y verticalmente */
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    margin-bottom: 150px;
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    background-color: #156f95; /* Color de fondo del contenedor */
+    color: #fff;
+}
+
+.titulo {
+    margin-bottom: 10px; /* Ajusta el espaciado entre el título y los contenedores */
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #33b0e5; /* Color de fondo del contenedor */
+    color: #fff;
+}
+
+.container2, .container3 {
+    flex: 1;
+    margin-right: 40px; /* Ajusta este valor según el espacio deseado entre los contenedores */
+    width: 50px;
+    background-color: #156f95;;
+}
+
+
+
+
+
+
+.container {
+    width: 100pw; /* Ancho máximo del contenedor */
+    padding: 2rem; /* Relleno interno del contenedor */
+    background-color: #156f95; /* Color de fondo del contenedor */
+    color: #fff;
+}
+.container h2{
+    color: #05c9c5;
+    font-size: 50px;
+}
+
+
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #121930;
+    color: #fff;
+    bottom: 0; /* Lo coloca en la parte inferior */
+    width: 100pw; /* Ocupa todo el ancho */
+    height: 90px;
+}
+
